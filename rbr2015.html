@@ -1,0 +1,71 @@
+<html>    
+    <head>
+	<title>Highlights | Rubaroo 2016</title>        
+        <link rel="stylesheet" href="common.css" />
+        <link rel="stylesheet" href="rbr2015.css" />
+        <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <script type="text/javascript">
+            window.onload = function(){
+                setInterval(changeScene,3000);
+                
+            }
+            function changeScene()
+            {
+                
+                var imgs = ['1','2','3','4','5','6','7','8','9','11'];
+                var accText = ['SUNBURN Campus&reg; hosted at Rubaroo 2015, with live performances by acclaimed bassist <i>MojoJojo</i> and <i>Zaeden</i>, wrapping up the 2 day fest with flair','Music kept the evening moving','No feet went shy off the stage with a variety of Cultural Dance Performances','<i>MojoJojo</i> spills the <i>beats</i> across the crowd','Faces were painted with energy and what not?','Never too late to hold the six string','Electrifying performances kept not just the audience gazing','Who could have kept the hands off the air?','I like to believe I have some amount of <i>Mojo</i> <br> -Akshay Johar aka <i>MojoJojo</i>','Eka band at Rubaroo 2015'];  
+                if(typeof changeScene.counter == 'undefined')
+                {
+                    changeScene.counter = 0;
+                }
+                else if(changeScene.counter == 10)
+                {
+                    changeScene.counter = 0;
+                }
+                
+                var x = document.getElementById("showreel").getElementsByTagName("img").length;
+                var y = document.getElementById("showreel").getElementsByTagName("img");
+                var z = 0;
+                while (z < y.length)
+                {
+                    y[z].style.opacity = "0.2";
+                    z++;
+                }
+                y[changeScene.counter].style.opacity = "1";
+                
+                document.getElementById("bruce2").style.backgroundImage="url('resources/images/" + imgs[changeScene.counter] + ".jpg')";
+                
+                document.getElementById("tbt").innerHTML = accText[changeScene.counter];
+                changeScene.counter++;
+            }
+        </script>
+    </head>    
+    <body><div id="bruce2">
+        <div id="bruce">
+    	   <nav id="menubar">
+               <a href="index.html"><li><span class="hey">H</span>&nbsp;</li></a>
+                <li class="act2"><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li>
+                <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li></a>
+                <li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li>
+                <li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li>
+                <li><span class="heyo">q</span>&nbsp;&nbsp;Contact</li>
+            </nav>
+            <div class="content-box" id="tbt">
+                SUNBURN Campus&reg; hosted at Rubaroo 2015, with live performances by acclaimed bassist <i>MojoJojo</i> and <i>Zaeden</i>, wrapping up the 2 day fest with flair
+            </div>            
+            <div id="showreel" class="imgstore">
+                <img style="opacity:1" src="resources/images/1.jpg" />
+                <img src="resources/images/2.jpg" />
+                <img src="resources/images/3.jpg" />
+                <img src="resources/images/4.jpg" />
+                <img src="resources/images/5.jpg" />
+                <img src="resources/images/6.jpg" />
+                <img src="resources/images/7.jpg" />
+                <img src="resources/images/8.jpg" />
+                <img src="resources/images/9.jpg" />
+                <img src="resources/images/11.jpg" />
+            </div>
+        </div>
+    </div></body>
+</html>

@@ -1,0 +1,202 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-size: 100% 150%;
+    background-image: url(resources/images/faces.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.bann
+{
+    height: 200px;
+    width: 700px;
+    background-color: rgba(0,0,0,0.9);
+}
+div.bann h1
+{
+    font-family: Roboto;
+    font-size: 80px;
+    color: white;
+    padding: 30px;
+}
+img#rlog
+{
+    display: inline-block;
+    height: 200px;
+    vertical-align: baseline;
+    left: -100px;
+    -webkit-filter: grayscale(100%);
+    position: relative;
+    top: 65px;
+}
+img#srmpres
+{
+    transition: .5s all;
+    display: inline-block;
+    height: 200px;
+    left: -200px;
+    width: 200px;
+    border-radius: 200px;
+    border: solid 3px white;
+    box-shadow: 0px 0px 1px 2px #111;
+    position: relative;
+    top: 65px;
+    animation: rs 1.5s;
+}
+div#presenta
+{
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
+div#inline-blockage
+{
+    display: block;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.break
+{
+    display: inline-block;
+    width: 150px;
+}
+.indie
+{
+    font-family: Indie Flower;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.timer
+{
+    padding: 100px;
+    display: block;
+    text-align: center;
+    position: relative;
+    color: white;
+    margin-left: auto;    
+    margin-right: auto;
+    text-shadow: black 0px 0px 10px;
+    padding-bottom: 50px;
+}
+span.num
+{
+    font-family: Open Sans;
+    font-size: 144px;
+}
+.dhms
+{
+    font-family: Indie Flower;
+    color: white;
+    text-shadow: black 0px 0px 5px;
+    width: 100%;
+    text-align: center;
+}
+@keyframes rs
+{
+    from {left: 400px;transform: rotate(359deg);visibility: visible}
+    to {left: -200px;transform: rotate(0deg);}
+}
+@font-face {
+    font-family: 'si';
+    src: url('resources/fonts/socicon.eot');
+    src: url('resources/fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('resources/fonts/socicon.woff') format('woff'),
+         url('resources/fonts/socicon.ttf') format('truetype'),
+         url('resources/fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(resources/fonts/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 36px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 13px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+    opacity: .8;
+}
+
+.soc a:hover {
+    transform: all .5s;
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-facebook:before {
+    content:'b';
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-twitter:before {
+    content:'a';
+}

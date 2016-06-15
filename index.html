@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <title>Rubaroo 2016 | SRM</title>
+        <link rel="stylesheet" href="index_style.css" />
+        <link rel="stylesheet" href="common.css" />
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <script type="text/javascript">
+            window.onload = function(){
+                setInterval(timero,1000);            
+            }
+            function timero()
+            {
+                var date = new Date().getTime();
+                var rubaroo = 1472668200000;
+                var timeLeft = rubaroo - date;
+                var daysLeft = Math.floor(((timeLeft/1000)/3600)/24);
+                var hoursLeft = Math.floor((timeLeft-(daysLeft*24*3600000))/3600000);
+                var minsLeft = Math.floor((timeLeft-(daysLeft*24*3600000)-(hoursLeft*3600000))/60000);
+                var secsLeft = Math.floor((timeLeft-(daysLeft*24*3600000)-(hoursLeft*3600000)-(minsLeft*60000))/1000);
+                if(secsLeft.toString().length == 1)
+                {
+                    secsLeft = "0" + secsLeft.toString();
+                }if(minsLeft.toString().length == 1)
+                {
+                    minsLeft = "0" + minsLeft.toString();
+                }if(hoursLeft.toString().length == 1)
+                {
+                    hoursLeft = "0" + hoursLeft.toString();
+                }if(daysLeft.toString().length == 1)
+                {
+                    daysLeft = "0" + daysLeft.toString();
+                }
+                document.getElementById('phew').innerHTML = "<span class=\"num\">"+daysLeft+":" + hoursLeft + ":" + minsLeft + ":" + secsLeft+"</span>";
+            }
+        </script>
+    </head>
+    <body><div id="bruce">
+        <!--<img src="resources/images/rubaroo_logo_placeholder.jpg" id="logo" />-->
+        <nav id="menubar">
+            <li class="act2"><span class="hey">H</span>&nbsp;</li>
+            <a href="rbr2015.html"><li><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li></a>
+            <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li><a/>
+            <li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li>
+            <li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li>
+            <li><span class="heyo">q</span>&nbsp;&nbsp;Contact</li>
+        </nav>
+        <!--<div id="presenta">
+            <img src="resources/images/Srmseal.png" id="srmpres" />
+            <img src="resources/images/rl.png" id="rlog" />
+        </div>-->
+        <div class="timer" id="phew">
+            <span class="num">00:00:00:00</span>
+        </div>
+        <div class="soc">
+            <span class="indie">
+                <ul class="soc">
+                    <li><a class="soc-facebook" href="#"></a></li>
+                    <li><a class="soc-instagram" href="#"></a></li>
+                    <li><a class="soc-twitter soc-icon-last" href="#"></a></li>
+                </ul>
+            </span>
+        </div>
+    </div></body>
+</html>
