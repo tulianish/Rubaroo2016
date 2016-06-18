@@ -42,12 +42,6 @@ hr {
 .section-title h1 {
     font-size: 24px;
 }
-.section-title {
-    padding-bottom: 32px;
-}
-.medium-icon {
-    font-size: 32px !important;
-}
 #work, #about, #team, #portfolio, #pricing, #contact {
     padding-bottom: 100px;
     padding-top: 100px;
@@ -379,7 +373,7 @@ hr {
     opacity: 0.5;
 }
 .filter-wrapper {
-    margin: 40px 0 24px;
+    margin: 40px -10px 24px;
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -595,26 +589,244 @@ footer p {
     font-size: 12px;
 }
 }
-
-
-
-
-
-
-
-
-/***
-User Profile Sidebar by @keenthemes
-A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
-Licensed under MIT
-***/
-
-/* Content */
+@media only screen and (min-width: 1224px) {
+#obox1.outerbox {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#box11.box {
+    margin-left: 175px;
+}
+#box12.box {
+    margin-left: 50px;
+}
+#box13.box {
+    margin-left: 50px;
+}
+#box14.box {
+    margin-left: 50px;
+}
+#obox2.outerbox {
+    padding: 20px;
+}
+#box21.box {
+    margin-left: 175px;
+}
+#box22.box {
+    margin-left: 50px;
+}
+#box23.box {
+    margin-left: 50px;
+}
+#box24.box {
+    margin-left: 50px;
+}
+#obox3.outerbox {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#box31.box {
+    margin-bottom: 40px;
+    margin-left: 175px;
+}
+#box32.box {
+    margin-left: 50px;
+}
+#box33.box {
+    margin-left: 50px;
+}
+#box34.box {
+    margin-left: 50px;
+}
+#obox4.outerbox {
+    padding: 20px;
+}
+#box41.box {
+    margin-bottom: 40px;
+    margin-left: 175px;
+}
+#box42.box {
+    margin-left: 50px;
+}
+#box43.box {
+    margin-left: 50px;
+}
+#box44.box {
+    margin-left: 50px;
+}
+#obox5.outerbox {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#box51.box {
+    margin-bottom: 40px;
+    margin-left: 175px;
+}
+#box52.box {
+    margin-left: 50px;
+}
+#box53.box {
+    margin-left: 50px;
+}
+#box54.box {
+    margin-left: 50px;
+}
+#obox6.outerbox {
+    padding: 20px;
+}
+#box61.box {
+    margin-bottom: 40px;
+    margin-left: 175px;
+}
+#box62.box {
+    margin-left: 50px;
+}
+#box63.box {
+    margin-left: 50px;
+}
+#box64.box {
+    margin-left: 50px;
+}
+#obox7.outerbox {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+#box71.box {
+    margin-bottom: 40px;
+    margin-left: 175px;
+}
+#box72.box {
+    margin-left: 50px;
+}
+#box73.box {
+    margin-left: 50px;
+}
+#box74.box {
+    margin-left: 50px;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.filter-wrapper {
+    margin: 0 -18px 15px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+#box11.box {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+#box12.box {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+#box13.box {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+#box14.box {
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+#box21.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box22.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box23.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box24.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box31.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box32.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box33.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box34.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box41.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box42.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box43.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box44.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box51.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box52.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box53.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box54.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box61.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box62.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box63.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box64.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box71.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box72.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box73.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+#box74.box {
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+}
 .content {
     padding-top: 30px;
 }
-
-/* Testimonials */
 .testimonials blockquote {
     background: #f8f8f8 none repeat scroll 0 0;
     border: medium none;
@@ -626,30 +838,28 @@ Licensed under MIT
     position: relative;
 }
 .testimonials blockquote::before {
-    width: 0; 
-    height: 0;
-	right: 0;
-	bottom: 0;
-	content: " "; 
-	display: block; 
-	position: absolute;
-    border-bottom: 20px solid #fff;    
-	border-right: 0 solid transparent;
-	border-left: 15px solid transparent;
-	border-left-style: inset; /*FF fixes*/
-	border-bottom-style: inset; /*FF fixes*/
-}
-.testimonials blockquote::after {
-    width: 0;
-    height: 0;
-    right: 0;
+    border-bottom: 20px inset #fff;
+    border-left: 15px inset transparent;
+    border-right: 0 solid transparent;
     bottom: 0;
     content: " ";
     display: block;
+    height: 0;
     position: absolute;
+    right: 0;
+    width: 0;
+}
+.testimonials blockquote::after {
+    border-color: #e63f0c transparent transparent;
     border-style: solid;
     border-width: 20px 20px 0 0;
-    border-color: #e63f0c transparent transparent transparent;
+    bottom: 0;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
 }
 .testimonials .carousel-info img {
     border: 1px solid #f5f5f5;
