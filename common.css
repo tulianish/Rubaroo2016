@@ -2,6 +2,11 @@
     font-family: "Heydings";
     src: url('resources/fonts/heydings_icons.ttf');
 }
+body
+{
+    margin: 0;
+    padding: 0;
+}
 #bruce
 {
     display: block;
@@ -9,6 +14,7 @@
     top: 0;
     left: 0;
     min-height: 100%;
+    z-index: -222;
     height: auto;
     min-width: 100%;
     background-color: rgba(0,0,0,0.7);
@@ -29,6 +35,9 @@ nav#menubar
     padding: 0;
     margin: 0;
     vertical-align: bottom;
+    position: relative;
+    box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+    z-index: 10;
 }
 nav#menubar li
 {
@@ -36,19 +45,21 @@ nav#menubar li
     text-align: center;
     display: inline-block;
     border: none;
-    padding-top: 16px;
     font-size: 15px;
     /*text-shadow: #fff 0px 0px 1px;*/
-    padding-bottom: 15px;
     padding-left: 25px;
     padding-right: 25px;
     vertical-align: bottom;
     text-align: center;
     font-family: Open Sans;
+    height: 60px;
+    box-sizing:  content-box;
+    line-height: 60px;
     color: white;
     border-left: solid 10px transparent;
     border-right: solid 10px transparent;
 }
+
 img.banner
 {
     -webkit-filter: grayscale(40%);    
@@ -78,9 +89,364 @@ span.hey
 {
     font-family: Heydings;
     font-size: 15px;
+    display: inline;
 }
 span.heyo
 {
     font-family: Heydings;
     font-size: 15px;
+    display: inline;
 }
+nav#menubar li#forth
+{
+    display: none;
+    background-image: url(resources/images/mobile-nav-icon.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav#menubar li#rub
+{
+    display: none;
+    font-family: Indie Flower;
+    font-size: 21px;
+    vertical-align: top;
+}
+@media all and (max-width:1242px) {
+    #bruce
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        z-index: -2;
+        height: auto;
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    nav#menubar
+    {
+        background-color: rgba(0,0,0,1);    
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+        z-index: 10;
+    }
+    nav#menubar li
+    {
+        display: inline-block;
+        height: 55px;
+        font-size: 13px;
+        border-left: solid 9px transparent;
+        border-right: solid 9px transparent;
+        padding: 0 22.5px 0 22.5px;
+        line-height: 55px;
+    }
+    span.hey
+    {
+        font-size: 13px;
+    }
+    span.heyo
+    {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1094px) {
+    #bruce
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        z-index: -2;
+        height: auto;
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    nav#menubar
+    {
+        background-color: rgba(0,0,0,1);    
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+        z-index: 10;
+    }
+    nav#menubar li
+    {
+        display: inline-block;
+        font-size: 12px;
+        border-left: solid 10px transparent;
+        height: 50px;
+        line-height: 50px;
+        border-right: solid 10px transparent;
+        padding: 0 20.5px 0 20.5px;
+    }
+    span.hey
+    {
+        font-size: 12px;
+    }
+    span.heyo
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:911px) {
+    #bruce
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        z-index: -2;
+        height: auto;
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    nav#menubar
+    {
+        background-color: rgba(0,0,0,1);    
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+        z-index: 10;
+    }
+    nav#menubar li
+    {
+        display: inline-block;
+        font-size: 10px;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+        padding: 0 16px 0 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+    span.hey
+    {
+        font-size: 10px;
+    }
+    span.heyo
+    {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:781px) {
+    #bruce
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        z-index: -2;
+        height: auto;
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    nav#menubar
+    {
+        background-color: rgba(0,0,0,1);    
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+        z-index: 10;
+    }
+    nav#menubar li
+    {
+        display: inline-block;
+        font-size: 8px;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+        padding: 0 16px 0 16px;
+        height: 33px;
+        line-height: 33px;
+    }
+    span.hey
+    {
+        font-size: 8px;
+    }
+    span.heyo
+    {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width:684px) {
+    #bruce
+    {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100%;
+        z-index: -2;
+        height: auto;
+        min-width: 100%;
+        background-color: rgba(0,0,0,0.7);
+    }
+    nav#menubar
+    {
+        background-color: rgba(0,0,0,1);    
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        box-shadow: rgba(0,0,0,0.4) 0 0 5px 2px;
+        z-index: 10;
+    }
+    nav#menubar li
+    {
+        font-size: 7px;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+        padding: 0 16px 0 16px;
+        height: 26px;
+        line-height: 26px;
+        display: inline-block;
+    }
+    nav#menubar li#forth
+    {
+        display: none;
+    }
+    nav#menubar li#rub
+    {
+        display: none;
+    }
+    span.hey
+    {
+        font-size: 7px;
+    }
+    span.heyo
+    {
+        font-size: 7px;
+    }
+}
+
+@media all and (max-width:414px) and (max-height:736px) {
+    #bruce
+    {
+        height: auto;
+        width: 449px;
+        height: 797px;
+    }
+    nav#menubar
+    {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    nav#menubar li
+    {
+        display: none;
+    }
+    nav#menubar li:nth-child(2)
+    {
+        border-top: solid 2px transparent;
+    }
+    nav#menubar li#forth
+    {
+        display: inline-block;
+        border-bottom: solid 10px transparent;
+    }
+    nav#menubar li#forth:hover
+    {
+        background-color: transparent;
+    }
+    nav#menubar li#rub
+    {
+        display: inline-block;
+    }
+    
+}
+
+@media all and (max-width:320px) and (max-height:568px) {
+    #bruce
+    {
+        height: auto;
+        width: 449px;
+        height: 797px;
+    }
+    nav#menubar
+    {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    nav#menubar li
+    {
+        display: none;
+    }
+    nav#menubar li:nth-child(2)
+    {
+        border-top: solid 2px transparent;
+    }
+    nav#menubar li#forth
+    {
+        display: inline-block;
+        border-bottom: solid 10px transparent;
+    }
+    nav#menubar li#forth:hover
+    {
+        background-color: transparent;
+    }
+    nav#menubar li#rub
+    {
+        display: inline-block;
+    }
+    
+}
+
+@media all and (max-width:320px) and (max-height:480px) {
+    #bruce
+    {
+        position: absolute;
+        height: 480px;
+        width: 320px;
+        top: 0;
+        left: 0;
+    }
+    nav#menubar
+    {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    nav#menubar li
+    {
+        display: none;
+    }
+    nav#menubar li:nth-child(2)
+    {
+        border-top: solid 2px transparent;
+    }
+    nav#menubar li#forth
+    {
+        display: inline-block;
+        border-bottom: solid 10px transparent;
+    }
+    nav#menubar li#forth:hover
+    {
+        background-color: transparent;
+    }
+    nav#menubar li#rub
+    {
+        display: inline-block;
+    }
+    
+}
+

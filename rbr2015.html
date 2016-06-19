@@ -1,10 +1,11 @@
 <html>    
-    <head>
-	<title>Highlights | Rubaroo 2016</title>        
+    <head>        
         <link rel="stylesheet" href="common.css" />
         <link rel="stylesheet" href="rbr2015.css" />
         <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width">
+        <title>Highlights</title>
         <script type="text/javascript">
             window.onload = function(){
                 setInterval(changeScene,3000);
@@ -39,16 +40,18 @@
                 document.getElementById("tbt").innerHTML = accText[changeScene.counter];
                 changeScene.counter++;
             }
-        </script>
+        </script>        
+        <script src="scripts/common.js"></script>
     </head>    
     <body><div id="bruce2">
-        <div id="bruce">
     	   <nav id="menubar">
-               <a href="index.html"><li><span class="hey">H</span>&nbsp;</li></a>
-                <li class="act2"><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li>
+                <li id="forth" onClick="toggleMenu()"></li>
+                <li id="rub">Rubaroo 2016</li>
+                <a href="index.html"><li><span class="hey">H</span>&nbsp;</li></a>
+                <a href="rbr2015.html"><li class="act2"><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li></a>
                 <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li></a>
                 <li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li>
-                <li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li>
+                <a href="committee.html"><li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li></a>
                 <li><span class="heyo">q</span>&nbsp;&nbsp;Contact</li>
             </nav>
             <div class="content-box" id="tbt">
@@ -66,6 +69,5 @@
                 <img src="resources/images/9.jpg" />
                 <img src="resources/images/11.jpg" />
             </div>
-        </div>
-    </div></body>
+        </div></body>
 </html>

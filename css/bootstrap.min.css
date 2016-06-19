@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, section, summary {
     display: block;
 }
 audio, canvas, progress, video {

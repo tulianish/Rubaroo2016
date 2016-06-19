@@ -4,6 +4,8 @@
         <link rel="stylesheet" href="index_style.css" />
         <link rel="stylesheet" href="common.css" />
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="scripts/common.js"></script>
         <script type="text/javascript">
             window.onload = function(){
                 setInterval(timero,1000);            
@@ -37,11 +39,13 @@
     <body><div id="bruce">
         <!--<img src="resources/images/rubaroo_logo_placeholder.jpg" id="logo" />-->
         <nav id="menubar">
+            <li id="forth" onClick="toggleMenu()"></li>
+            <li id="rub">Rubaroo 2016</li>
             <li class="act2"><span class="hey">H</span>&nbsp;</li>
             <a href="rbr2015.html"><li><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li></a>
-            <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li><a/>
+            <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li></a>
             <li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li>
-            <li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li>
+            <a href="committee.html"><li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li></a>
             <li><span class="heyo">q</span>&nbsp;&nbsp;Contact</li>
         </nav>
         <!--<div id="presenta">
@@ -51,7 +55,7 @@
         <div class="timer" id="phew">
             <span class="num">00:00:00:00</span>
         </div>
-        <div class="soc">
+        <div class="soc-div">
             <span class="indie">
                 <ul class="soc">
                     <li><a class="soc-facebook" href="#"></a></li>
