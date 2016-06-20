@@ -4,3 +4,283 @@ body
     padding: 0;
     background-color: #f6f6f6;
 }
+a,div,article,img,section
+{
+    max-width: 100%;
+}
+a,img
+{
+    min-width: 48px;
+    min-height: 48px;
+}
+#page-title
+{
+    width: 100%;
+}
+#page-title h2
+{
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    color: #00c6d7;
+    font-size: 60px;
+}
+hr
+{
+    width: 400px;
+    max-width: 80%;
+    border-color: #eee;
+}
+#peeps
+{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.committee
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: #eee;
+    box-sizing: border-box;
+    padding: 0px;
+    outline-color: #f6f6f6;
+    outline-offset: 0px;
+    padding-bottom: 0;
+    outline-style: solid;
+    outline-width: 10px;
+    box-shadow: #bbb 0 0 2px 0.5px;
+}
+.committee h3
+{
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    margin: 0;
+    text-shadow: none;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    border-bottom: solid 10px #eee;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: aliceblue;
+    text-align: center;
+}
+.perflist
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: stretch;   
+    box-sizing: border-box;
+}
+.perf
+{
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.perf img
+{
+    min-width: 58px;
+    min-height: 48px;
+    width: 100px;
+    border: solid 5px white;
+    box-shadow: #ccc 0 0 3px 1px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.perf h6
+{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Arial,sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+footer
+{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px;
+    color: #00c6d7;
+    font-family: Roboto;
+}
+@media screen and (min-width: 1921px)
+{
+    .container-1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1921px;
+    }
+    #com1
+    {
+        width: 33%;
+    }
+    #com2
+    {
+        width: 34%;
+    }
+    #com3
+    {
+        width: 33%;
+    }
+    .perflist
+    {
+        width: 100%;
+    }
+    .perf
+    {
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1367px) and (max-width: 1920px)
+{
+    .perf
+    {
+        width: 50%;
+        padding-top: 40px;
+    }
+    .perflist
+    {
+        width: 100%;
+    }
+    .committee
+    {
+        width: 33.33%;
+    }
+    .perf img
+    {
+        height: 160px;
+        width: 180px;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1366px)
+{
+    .perf
+    {
+        width: 50%;
+        padding-top: 40px;
+    }
+    .perflist
+    {
+        width: 100%;
+    }
+    .committee
+    {
+        width: 50%;
+    }
+    #com3
+    {
+        width: 100%;
+    }
+    #com3 .perflist .perf
+    {
+        width: 25%;
+    }
+    .perf img
+    {
+        height: 150px;
+        width: 180px;
+    }
+}
+@media screen and (min-width: 608px) and (max-width: 960px)
+{
+    .perf
+    {
+        width: 50%;
+        padding-top: 25px;
+    }
+    .perflist
+    {
+        width: 100%;
+    }
+    .committee
+    {
+       width: 50%;
+    }
+    #com3
+    {
+        width: 100%;
+    }
+    #com3 .perflist
+    {
+        width: 100%;
+    }
+    #com3 .perflist .perf
+    {
+        width: 25%;
+    }
+    .perf img
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 466px) and (max-width: 607px)
+{
+    .perf
+    {
+        width: 33.33%;
+        padding-top: 20px;
+    }
+    .perflist
+    {
+    }
+    .perf img
+    {
+    }
+}
+@media screen and (min-width:389px) and (max-width:465px)
+{
+    .perf
+    {
+        width: 50%;
+        padding-top: 10px;
+    }
+    .perf img
+    {
+        width: 120px;
+        height: 100px;  
+    }
+}
+@media screen and (min-width:325px) and (max-width:388px)
+{
+    .perf
+    {
+        width: 50%;
+        padding-top:10px;
+    }
+    .perf img
+    {
+        width: 100px;
+        height: 90px;
+    }
+}
+@media screen and (max-width:324px)
+{
+    .perf
+    {
+        width: 100%;
+        padding-top: 5px;
+    }
+    .perf img
+    {
+        height: 120px;
+        width: 150px;
+    }
+}

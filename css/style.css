@@ -495,7 +495,7 @@ hr {
     background-color: #3b3b3b;
 }
 #contact {
-    background: #3b3b3b url("../resources/images/theme.jpg") no-repeat scroll center center / cover ;
+    background: #3b3b3b url("../images/contact-bg.jpg") no-repeat scroll center center / cover ;
     color: #ffffff;
 }
 #contact h2 {
@@ -515,7 +515,7 @@ hr {
     padding-top: 14px;
 }
 #contact form {
-    padding-top: 5px;
+    padding-top: 60px;
 }
 #contact .form-control {
     border: 2px solid #ffffff;

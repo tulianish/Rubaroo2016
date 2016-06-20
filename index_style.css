@@ -79,11 +79,13 @@ div#inline-blockage
 }
 .timer
 {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: block;
     text-align: center;
     position: relative;
     color: white;
+    box-sizing: content-box;
     margin-left: auto;    
     margin-right: auto;
     text-shadow: black 0px 0px 10px;
@@ -325,6 +327,21 @@ span.num
     {
         position: relative;
         top: -10px;
+    }
+}
+@media screen and (max-width: 414px)
+{
+    span.num
+    {
+        font-size: 45px;
+    }
+    .timer
+    {
+        position: relative;
+        height: 45px;
+        line-height: 45px;
+        top: -10px;
+        z-index: -1;
     }
 }
 /* iPhone 5/5S compatibility */

@@ -7,10 +7,24 @@ body
     margin: 0;
     padding: 0;
 }
+a, div
+{
+    max-width: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+a:visited
+{
+    text-decoration: none;
+    color: white;
+}
 #bruce
 {
     display: block;
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
     min-height: 100%;
@@ -108,7 +122,7 @@ nav#menubar li#forth
 nav#menubar li#rub
 {
     display: none;
-    font-family: Indie Flower;
+    font-family: Roboto;
     font-size: 21px;
     vertical-align: top;
 }
@@ -339,7 +353,22 @@ nav#menubar li#rub
         font-size: 7px;
     }
 }
-
+@media all and (max-width:552px) and (min-width:461px)
+{
+    nav#menubar li
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media all and (max-width:460px) and (min-width:415px)
+{
+    nav#menubar li
+    {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
 @media all and (max-width:414px) and (max-height:736px) {
     #bruce
     {
@@ -448,5 +477,12 @@ nav#menubar li#rub
         display: inline-block;
     }
     
+}
+@media screen and (max-width: 245px)
+{
+    nav#menubar li#rub
+    {
+        display: none;
+    }
 }
 
