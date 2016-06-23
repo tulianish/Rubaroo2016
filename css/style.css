@@ -33,10 +33,9 @@ a {
 }
 hr {
     border-color: #ccc;
-    width: 250px;
+    width: 350px;
 }
 .section-title strong {
-    color: #00c6d7;
     font-size: 56px;
 }
 .section-title h1 {
@@ -836,6 +835,7 @@ footer p {
     line-height: 20px;
     padding: 15px;
     position: relative;
+
 }
 .testimonials blockquote::before {
     border-bottom: 20px inset #fff;

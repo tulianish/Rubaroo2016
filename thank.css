@@ -1,0 +1,36 @@
+
+body {
+    background-image:url(resources/images/contact.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.container {
+    float: none;
+    font-family: "Roboto",sans-serif;
+}
+.top-text {
+	
+	margin-top:150px;
+	color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+text-shadow:2px 2px #000000;
+}
+.down-text {
+    float: none;
+    text-align: center;
+	margin-top:50px;
+		color: #fff;
+    font-size: 45px;
+	text-shadow:2px 2px #000000;
+}
+
+hr
+{width:350px;
+color:#FFF;
+}
+
+.down-text hr
+{
+	width:750px;}
