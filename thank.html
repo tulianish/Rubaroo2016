@@ -1,5 +1,6 @@
 <html>
     <head>
+   		<link rel="icon" href="resources/images/Srmseal.png" type="image/gif" sizes="16x16">
         <script type="text/javascript" src="scripts/common.js"></script>
         <link rel="stylesheet" href="common.css">
         <link rel="stylesheet" href="thank.css">
@@ -23,6 +24,17 @@
     <div class="container">
     <div class="top-text">Thank you!<hr></div>
     <div class="down-text">We will get back to you very shortly<hr></div>
+    <div class="redirect"><p>You will be redirected in <span id="counter">10</span> second(s).</p></div>
+<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=1) {
+        location.href = 'http://srmrubaroo-anishtuli.rhcloud.com/';
+    }
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+setInterval(function(){ countdown(); },1000);
+</script>
     
     </div>
       </body>

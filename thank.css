@@ -34,3 +34,16 @@ color:#FFF;
 .down-text hr
 {
 	width:750px;}
+	
+.redirect p
+{float: none;
+    text-align: center;
+	margin-top:175px;
+	color: #fff;
+    font-size: 20px;
+	text-shadow:1px 1px #000000;
+	}
+	
+.down-text hr
+{
+	width:725px;}

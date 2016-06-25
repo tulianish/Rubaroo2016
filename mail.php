@@ -1,4 +1,28 @@
 <?php
+
+error_reporting(0);
+$conn=mysql_connect("127.12.107.2","adminC2gn4Nh","2VxHrSns5Zaa");
+if(! $conn )
+   {
+     die('Could not connect: ' . mysql_error());
+   }
+   echo 'Connected successfully';
+$sel=mysql_select_db("srmrubaroo");
+if(! $sel )
+   {
+     die('Could not connect: ' . mysql_error());
+   }
+    echo 'DATABASE successfully'; 
+
+if(isset($_POST['submit']))
+{
+	$date=date("Y-m-d");
+	$sql = "INSERT INTO enquiry (name,email,message,datetime)
+VALUES ('".$_POST['name']."', '".$_POST['email']."','".$_POST['message']."','".$date."')";  
+mysql_query($sql);
+}
+
+
 if($_POST){
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -33,6 +57,8 @@ if(mail($to, $subject, $msg1, $headers)){
 } else{
     echo 'Unable to send email. Please try again later.';
 }}
+
+
 
 
 ?>
