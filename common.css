@@ -7,10 +7,6 @@ body
     margin: 0;
     padding: 0;
 }
-a, div
-{
-    max-width: 100%;
-}
 a
 {
     text-decoration: none;

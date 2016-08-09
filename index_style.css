@@ -2,10 +2,10 @@ body
 {
     margin:0;
     padding:0;
-    background-size: cover;
-    background-image: url(resources/images/faces.jpg);
+    background-size: 920px 850px;
+    background-image: url(resources/images/Collage.jpg);
     background-position: center right;
-    background-repeat: no-repeat;
+    background-repeat: ;
     background-attachment: fixed;
 }
 

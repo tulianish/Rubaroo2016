@@ -22,13 +22,13 @@ a,img
     text-align: center;
     font-family: Roboto,sans-serif;
     color: #00c6d7;
-    font-size: 60px;
+    font-size: 56px;
 }
 hr
 {
     width: 400px;
     max-width: 80%;
-    border-color: #eee;
+    border-color: #ccc;
 }
 #peeps
 {
@@ -43,7 +43,7 @@ hr
 }
 .committee
 {
-    display: flex;
+
     flex-wrap: wrap;
     max-width: 100%;
     background-color: #eee;
