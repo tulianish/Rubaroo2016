@@ -40,7 +40,7 @@ a:visited
 }
 nav#menubar
 {
-    background-color: rgba(0,0,0,1);    
+    background-color: rgba(0,0,0,1);
     min-width: 100%;
     padding: 0;
     margin: 0;
@@ -61,7 +61,7 @@ nav#menubar li
     padding-right: 25px;
     vertical-align: bottom;
     text-align: center;
-    font-family: Open Sans;
+    font-family: Open Sans,sans-serif;
     height: 60px;
     box-sizing:  content-box;
     line-height: 60px;
@@ -72,7 +72,7 @@ nav#menubar li
 
 img.banner
 {
-    -webkit-filter: grayscale(40%);    
+    -webkit-filter: grayscale(40%);
     width: 100%;
     height: 300px;
 }
@@ -137,7 +137,7 @@ nav#menubar li#rub
     }
     nav#menubar
     {
-        background-color: rgba(0,0,0,1);    
+        background-color: rgba(0,0,0,1);
         min-width: 100%;
         padding: 0;
         margin: 0;
@@ -181,7 +181,7 @@ nav#menubar li#rub
     }
     nav#menubar
     {
-        background-color: rgba(0,0,0,1);    
+        background-color: rgba(0,0,0,1);
         min-width: 100%;
         padding: 0;
         margin: 0;
@@ -225,7 +225,7 @@ nav#menubar li#rub
     }
     nav#menubar
     {
-        background-color: rgba(0,0,0,1);    
+        background-color: rgba(0,0,0,1);
         min-width: 100%;
         padding: 0;
         margin: 0;
@@ -269,7 +269,7 @@ nav#menubar li#rub
     }
     nav#menubar
     {
-        background-color: rgba(0,0,0,1);    
+        background-color: rgba(0,0,0,1);
         min-width: 100%;
         padding: 0;
         margin: 0;
@@ -313,7 +313,7 @@ nav#menubar li#rub
     }
     nav#menubar
     {
-        background-color: rgba(0,0,0,1);    
+        background-color: rgba(0,0,0,1);
         min-width: 100%;
         padding: 0;
         margin: 0;
@@ -398,7 +398,7 @@ nav#menubar li#rub
     {
         display: inline-block;
     }
-    
+
 }
 
 @media all and (max-width:320px) and (max-height:568px) {
@@ -434,7 +434,7 @@ nav#menubar li#rub
     {
         display: inline-block;
     }
-    
+
 }
 
 @media all and (max-width:320px) and (max-height:480px) {
@@ -472,7 +472,7 @@ nav#menubar li#rub
     {
         display: inline-block;
     }
-    
+
 }
 @media screen and (max-width: 245px)
 {
@@ -481,4 +481,3 @@ nav#menubar li#rub
         display: none;
     }
 }
-

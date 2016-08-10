@@ -2,10 +2,10 @@ body
 {
     margin:0;
     padding:0;
-    background-size: 920px 850px;
-    background-image: url(resources/images/Collage.jpg);
+    background-size: cover;
+    background-image: url(resources/images/Collagecompressed.jpg);
     background-position: center right;
-    background-repeat: ;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -86,14 +86,14 @@ div#inline-blockage
     position: relative;
     color: white;
     box-sizing: content-box;
-    margin-left: auto;    
+    margin-left: auto;
     margin-right: auto;
     text-shadow: black 0px 0px 10px;
     padding-bottom: 50px;
 }
 span.num
 {
-    font-family: Open Sans;
+    font-family: Open Sans,sans-serif;
     font-size: 144px;
 }
 .dhms
@@ -118,9 +118,9 @@ span.num
          url('resources/fonts/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
+
 }
- 
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;

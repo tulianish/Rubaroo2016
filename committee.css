@@ -76,7 +76,7 @@ hr
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    align-items: stretch;   
+    align-items: stretch;
     box-sizing: border-box;
 }
 .perf
@@ -88,7 +88,7 @@ hr
 }
 .perf img
 {
-    min-width: 58px;
+    min-width: 48px;
     min-height: 48px;
     width: 100px;
     border: solid 5px white;
@@ -255,7 +255,7 @@ footer
     .perf img
     {
         width: 120px;
-        height: 100px;  
+        height: 100px;
     }
 }
 @media screen and (min-width:325px) and (max-width:388px)
