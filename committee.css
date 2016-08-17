@@ -52,6 +52,7 @@ hr
     outline-color: #f6f6f6;
     outline-offset: 0px;
     padding-bottom: 0;
+    width: 100%;
     outline-style: solid;
     outline-width: 10px;
     box-shadow: #bbb 0 0 2px 0.5px;
@@ -129,30 +130,31 @@ footer
     }
     #com1
     {
-        width: 33%;
+        width: 100%;
     }
     #com2
     {
-        width: 34%;
+        width: 100%;
     }
     #com3
     {
-        width: 33%;
+        width: 100%;
     }
     .perflist
     {
+        padding-top: 20px;
         width: 100%;
     }
     .perf
     {
-        width: 25%;
+        width: 10%;
     }
 }
 @media screen and (min-width: 1367px) and (max-width: 1920px)
 {
     .perf
     {
-        width: 50%;
+        width: 20%;
         padding-top: 40px;
     }
     .perflist
@@ -161,7 +163,7 @@ footer
     }
     .committee
     {
-        width: 33.33%;
+        width: 100%;
     }
     .perf img
     {
@@ -173,7 +175,7 @@ footer
 {
     .perf
     {
-        width: 50%;
+        width: 25%;
         padding-top: 40px;
     }
     .perflist
@@ -182,7 +184,7 @@ footer
     }
     .committee
     {
-        width: 50%;
+        width: 100%;
     }
     #com3
     {
@@ -202,7 +204,7 @@ footer
 {
     .perf
     {
-        width: 50%;
+        width: 25%;
         padding-top: 25px;
     }
     .perflist
@@ -211,7 +213,7 @@ footer
     }
     .committee
     {
-       width: 50%;
+       width: 100%;
     }
     #com3
     {
