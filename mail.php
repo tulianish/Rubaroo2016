@@ -7,7 +7,7 @@ if(! $conn )
      die('Could not connect: ' . mysql_error());
    }
    //echo 'Connected successfully';
-$sel=mysql_select_db("srmrubar_contact");
+$sel=mysql_select_db("srmrubar_main");
 if(! $sel )
    {
      die('Could not connect: ' . mysql_error());
