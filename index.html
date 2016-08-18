@@ -34,6 +34,7 @@
                     daysLeft = "0" + daysLeft.toString();
                 }
                 document.getElementById('phew').innerHTML = "<span class=\"num\">"+daysLeft+":" + hoursLeft + ":" + minsLeft + ":" + secsLeft+"</span>";
+                //document.getElementById('phew').innerHTML = daysLeft + "<i> days left</i>";
             }
         </script>
     </head>
@@ -45,7 +46,7 @@
             <li class="act2"><span class="hey">H</span>&nbsp;</li>
             <a href="rbr2015.html"><li><span class="heyo">I</span>&nbsp;&nbsp;Highlights</li></a>
             <a href="event.html"><li><span class="heyo">c</span>&nbsp;&nbsp;Events</li></a>
-            <li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li>
+            <a href="register.html"><li><span class="heyo">o</span>&nbsp;&nbsp;Registration</li></a>
             <a href="committee.html"><li><span class="heyo">A</span>&nbsp;&nbsp;Committee</li></a>
             <a href="contact.html"><li><span class="heyo">q</span>&nbsp;&nbsp;Contact</li></a>
         </nav>
@@ -53,6 +54,7 @@
             <img src="resources/images/Srmseal.png" id="srmpres" />
             <img src="resources/images/rl.png" id="rlog" />
         </div>-->
+        <img id="rlogo" src="resources/images/rubaroo_logo_placeholder1.png" />
         <div class="timer" id="phew">
             <span class="num">00:00:00:00</span>
         </div>
