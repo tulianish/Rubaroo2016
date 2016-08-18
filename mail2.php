@@ -22,7 +22,7 @@ $headers .= 'From: '.$from."\r\n".
 
 // Compose the HTML email message
 $msg1 = '<html><body>';
-$msg1 .= '<h3> Email : '.$email.'</h3>';
+$msg1 .= '<h3> Email : '.$from.'</h3>';
 $msg1 .= '<h3>Interest in external registrations</h3>';
 $msg1 .= '</body></html>';
  // Sending email
