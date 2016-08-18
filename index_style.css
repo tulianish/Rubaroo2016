@@ -3,12 +3,23 @@ body
     margin:0;
     padding:0;
     background-size: cover;
-    background-image: url(resources/images/Collagecompressed.jpg);
+    background-image: url(resources/images/faces.png);
     background-position: center right;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
-
+#rlogo
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 300px;
+  width: 350px;
+  max-width: 50%;
+  max-height: 55%;
+  position: relative;
+  top: 20px;
+}
 div.bann
 {
     height: 200px;
@@ -31,6 +42,10 @@ img#rlog
     -webkit-filter: grayscale(100%);
     position: relative;
     top: 65px;
+}
+#phew
+{
+  font-size: 30px;
 }
 img#srmpres
 {
@@ -79,7 +94,7 @@ div#inline-blockage
 }
 .timer
 {
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 100px;
     display: block;
     text-align: center;

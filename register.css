@@ -1,0 +1,38 @@
+body
+{
+  background: url('resources/images/5081.png');
+  background-size: cover;
+  background-position: 0% 5%;
+}
+#soon-box
+{
+  width: 800px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255,255,255,0.25);
+  font-family: sans-serif;
+  position: relative;
+  top: 50px;
+  padding: 30px;
+  text-align: center;
+}
+#soon-box .normalb input[type="text"]
+{
+  padding: 5px;
+}
+#soon-box strong
+{
+  font-size: 30px;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-shadow: #000 0 0 4px;
+}
+#soon-box i
+{
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
